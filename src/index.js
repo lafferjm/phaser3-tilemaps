@@ -1,4 +1,6 @@
 import 'phaser';
+
+import MainMenuScene from './scenes/mainMenuScene';
 import TileMapWithCameraScene from './scenes/tileMapWithCameraScene';
 
 var config = {
@@ -6,7 +8,7 @@ var config = {
     width: 800,
     height: 600,
     pixelArt: true,
-    scene: [TileMapWithCameraScene]
+    scene: [MainMenuScene, TileMapWithCameraScene]
 };
 
 new Phaser.Game(config);
