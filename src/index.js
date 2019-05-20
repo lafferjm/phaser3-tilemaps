@@ -11,4 +11,5 @@ var config = {
     scene: [MainMenuScene, TileMapWithCameraScene]
 };
 
+
 new Phaser.Game(config);

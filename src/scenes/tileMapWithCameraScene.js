@@ -2,7 +2,7 @@ import 'phaser';
 
 class TileMapWithCameraScene extends Phaser.Scene {
     constructor() {
-        super({ key: 'TileMapWithCameraScene '});
+        super('TileMapWithCameraScene');
 
         this.controls = null;
     }
