@@ -11,7 +11,8 @@ class MainMenuScene extends Phaser.Scene {
         this.menuOptions = {
             'Tile Map With Camera': 'TileMapWithCameraScene',
             'Tile Map With Player': 'TileMapWithPlayerScene',
-            'Simple Platformer Scene': 'SimplePlatformerScene'
+            'Simple Platformer': 'SimplePlatformerScene',
+            'Platformer': 'PlatformerScene'
         };
     }
 

@@ -2,7 +2,6 @@ import 'phaser';
 
 class TileMapWithPlayerScene extends Phaser.Scene {
     constructor() {
-        // super('TileMapWithPlayerScene');
         super({
             key: 'TileMapWithPlayerScene',
             physics: {
