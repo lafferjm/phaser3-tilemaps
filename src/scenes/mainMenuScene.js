@@ -12,7 +12,8 @@ class MainMenuScene extends Phaser.Scene {
             'Tile Map With Camera': 'TileMapWithCameraScene',
             'Tile Map With Player': 'TileMapWithPlayerScene',
             'Simple Platformer': 'SimplePlatformerScene',
-            'Platformer': 'PlatformerScene'
+            'Platformer': 'PlatformerScene',
+            'Drawing Platformer': 'DrawingTilePlatformerScene'
         };
     }
 
