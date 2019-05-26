@@ -11,7 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "@mikewesthad/dungeon": "^1.2.2",
-    "phaser": "^3.17.0"
+    "phaser": "^3.17.0",
+    "phaser-matter-collision-plugin": "^0.10.2"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.3"
