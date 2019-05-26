@@ -8,6 +8,7 @@ import PlatformerScene from './scenes/platformerScene';
 import DrawingPlatformerTileScene from './scenes/drawingTilePlatformerScene';
 import DungeonScene from './scenes/dungeonScene';
 import MatterIntroScene from './scenes/matterIntroScene';
+import PhysicsPlatformerScene from './scenes/physicsPlatformerScene';
 
 var config = {
     type: Phaser.AUTO,
@@ -22,7 +23,8 @@ var config = {
         PlatformerScene,
         DrawingPlatformerTileScene,
         DungeonScene,
-        MatterIntroScene
+        MatterIntroScene,
+        PhysicsPlatformerScene
     ]
 };
 
