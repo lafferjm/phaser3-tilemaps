@@ -149,7 +149,7 @@ class DugneonScene extends Phaser.Scene {
         camera.startFollow(this.player.sprite);
 
         this.add
-            .text(16, 16, `Find the stairs.  Go deeper. \n CurrentLevel: ${this.level}`, {
+            .text(16, 16, `Find the stairs.  Go deeper.\nCurrent Level: ${this.level}`, {
                 font: '18px monospace',
                 fill: '#000000',
                 padding: { x: 20, y: 10 },
