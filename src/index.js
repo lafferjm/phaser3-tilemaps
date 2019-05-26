@@ -9,6 +9,7 @@ import DrawingPlatformerTileScene from './scenes/drawingTilePlatformerScene';
 import DungeonScene from './scenes/dungeonScene';
 import MatterIntroScene from './scenes/matterIntroScene';
 import PhysicsPlatformerScene from './scenes/physicsPlatformerScene';
+import PhaserMatterCollisionPlugin from 'phaser-matter-collision-plugin';
 
 var config = {
     type: Phaser.AUTO,
@@ -25,7 +26,16 @@ var config = {
         DungeonScene,
         MatterIntroScene,
         PhysicsPlatformerScene
-    ]
+    ],
+    plugins: {
+        scene: [
+            {
+                plugin: PhaserMatterCollisionPlugin,
+                key: 'matterCollision',
+                mapping: 'matterCollision'
+            }
+        ]
+    }
 };
 
 
