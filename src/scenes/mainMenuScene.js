@@ -13,7 +13,8 @@ class MainMenuScene extends Phaser.Scene {
             'Tile Map With Player': 'TileMapWithPlayerScene',
             'Simple Platformer': 'SimplePlatformerScene',
             'Platformer': 'PlatformerScene',
-            'Drawing Platformer': 'DrawingTilePlatformerScene'
+            'Drawing Platformer': 'DrawingTilePlatformerScene',
+            'Dungeon': 'DungeonScene'
         };
     }
 

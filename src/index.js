@@ -6,6 +6,7 @@ import TileMapWithPlayerScene from './scenes/tileMapWithPlayerScene';
 import SimplePlatformerScene from './scenes/simplePlatformerScene';
 import PlatformerScene from './scenes/platformerScene';
 import DrawingPlatformerTileScene from './scenes/drawingTilePlatformerScene';
+import DungeonScene from './scenes/dungeonScene';
 
 var config = {
     type: Phaser.AUTO,
@@ -18,7 +19,8 @@ var config = {
         TileMapWithPlayerScene,
         SimplePlatformerScene,
         PlatformerScene,
-        DrawingPlatformerTileScene
+        DrawingPlatformerTileScene,
+        DungeonScene
     ]
 };
 

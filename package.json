@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@mikewesthad/dungeon": "^1.2.2",
     "phaser": "^3.17.0"
   },
   "devDependencies": {
