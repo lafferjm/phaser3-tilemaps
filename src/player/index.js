@@ -1,5 +1,3 @@
-import 'Phaser';
-
 class Player {
     constructor(scene, x, y) {
         this.scene = scene;
