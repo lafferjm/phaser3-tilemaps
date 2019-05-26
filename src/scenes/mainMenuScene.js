@@ -14,7 +14,8 @@ class MainMenuScene extends Phaser.Scene {
             'Simple Platformer': 'SimplePlatformerScene',
             'Platformer': 'PlatformerScene',
             'Drawing Platformer': 'DrawingTilePlatformerScene',
-            'Dungeon': 'DungeonScene'
+            'Dungeon': 'DungeonScene',
+            'Matter Intro': 'MatterIntroScene'
         };
     }
 
